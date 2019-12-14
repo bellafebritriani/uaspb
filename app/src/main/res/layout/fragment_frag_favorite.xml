@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg8"
+    tools:context=".FragFavorite">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:text="My Favorite"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/cat1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="@android:color/black"
+            android:text="Hai temen-temen, selamat datang di favoritku. Yap favoritku ini adalah kucing hewan kesayanganku, aku suka melihara kucing sejak kelas 4 sd, waktu itu aku menemukan kucing dijalan yang suka mampir kerumahku untuk meminta makanan, lama-kelamaan dia kerumah ku seterusnya dan akhirnya aku rawat kucing itu, setelah aku rawat, dia menjadi hewan yang baik, penurut, dan mengikuti ku kemanapun aku pergi. Aku sudah merawatnya dari sd hingga aku kuliah saat ini. Tapi bulan Oktober kemarin dia sudah pergi untuk selamanya. huft sedih, kucing yang aku rawat dari sd hingga kuliah sudah pergi sekarang. Nah selang beberapa bulan kemudian, aku mendapatkan kucing ini dari temenku, aku senang sekali bisa merawat hewan kesenangan ku lagi, dia lucu suka berlari lari dan penurut. Kucing ini ku namai Muezza. Muezza sangat lucu sekali, umurnya masih 3 bulan, dia hewan yang sangat penurut, ketika aku bilang tidak boleh makan sembarangan, dia pun tidak memakan itu."
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

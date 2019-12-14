@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context="com.example.uasbella.SkinReview">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Hello, Welcome to My Skin Care Review!"
+            android:textColor="@android:color/black"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/facewash" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"
+                    android:textColor="@android:color/black"
+                    android:text="Garnier"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="face wash yg ngebersihin muka bgt, enak waktu di pake, harumnya seger lemon gt, di wajah ga ada efek ketariknya, wajah jadi keset, tp dia ga ada efek melembabkanya. di pake dikit aja uda berbusa banyak, dan gampang di cari di supermarket terdekat."/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/serum" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"
+                    android:textColor="@android:color/black"
+                    android:text="Fresh Herb Origin Serum"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="Katanya serum ini bagus dan aku penasaran akhirnya aku beli. Wanginya seger bgt kayak lemon gitu, rada oily tapi gabikin kulit berminyak dan melembabkan. Beberapa hari awal udah kerasa banget muka jadi cerahan setelah make ini. Tapi mungkin efek dari beberapa skincare aku yg lain juga, tapi ditambah ini jadi keliatan bgt muka jadi lebih sehat."/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/toneer" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"
+                    android:textColor="@android:color/black"
+                    android:text="Toner Some By Mi"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="Toner ini bagus untuk efek mencerahkan walaupun panas2an tetap cerah, cuma untuk jerawat tidak berpengaruh tetap muncul, komedo tetap banyak ada dan pori2 tetap besar. Mencerahkannya juga butuh waktu 3 minggu sudah terlihat hasilnya. Toner ini gak perih di kulit aku yang kering dan sensitif, cuma agak perih di area yang kemerehan seperti samping hidung."/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    android:layout_height="match_parent"
+    tools:context="com.example.uasbella.MySkincare">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Hai, Welcome to My SkinCare!"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/black"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/face" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"
+                    android:textColor="@android:color/black"
+                    android:text="Garnier"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="face wash yg ngebersihin muka bgt, enak waktu di pake, harumnya seger lemon gt, di wajah ga ada efek ketariknya, wajah jadi keset, tp dia ga ada efek melembabkanya. di pake dikit aja uda berbusa banyak, dan gampang di cari di supermarket terdekat."/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/biore" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"
+                    android:textColor="@android:color/black"
+                    android:text="Biore Uv Aqua Rich SPF 50++"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="menurutku ini sun screen yang recommended banget untuk kulit berminyak. ga lengket, cepat meresap, ga whitecast. dengan SPF 50+ PA++++ menurutku udah lebih dari cukup untuk melindungi kulit dari sinar UV. ini udah jadi sunscreen wajib aku untuk sehari-hari."/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bedak" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"
+                    android:textColor="@android:color/black"
+                    android:text="Pigeon Teens Compact Powder"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="Bedaknya halus, ringan dipakai + Aman dipakai kulit sensitif, gk bikin BO + Wanginya lembut khas Pigeon + Bnyk pilihan shadenya, aku pakai pink dan masuk ke skintone maupun undertoneku + Hasilnya natural flawless + Lmyn awet dipakai, gk lunturan + Sponge packaging lamanya lembut bgt + Murah + Mudah ditemukan - Coveragenya sedikit bgt."/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/blush" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"
+                    android:textColor="@android:color/black"
+                    android:text="Blush On Wardah"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="Warna blushnya ada 2 shade, pink dan peach, pas dipake barengan warnanya cantik. Cuma menurutku ga terlalu pigmented, jadi sekali swatch masih kurang keliatan dan perlu dibuild up lagi. Untuk finishing looknya lumayan oke dan terlihat natural."/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/lip" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"
+                    android:textColor="@android:color/black"
+                    android:text="Peripera Ink Airy Velvet"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="Suka bangett sama produk ini, tekstur nya creamy dan nyaman di bibir jadi ga bikin bibir kering dan warna nya juga bagus banget bisa di ombre pake lipstick warna lain dan hasil nya sebaguss ituu recommend pokok nya"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/lip2" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"
+                    android:textColor="@android:color/black"
+                    android:text="Emina Magic Potion"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="Hampir tiap ngampus pake ini karena cocok dibibir dan gak bikin kering. biasanya aku suka pakein buat jadi base sebelum mengaplikasikan creammatte. Teksturnya ringan banget karena liptint ini tuh emang terbilang cair, pigmentasinya pas banget untuk menghadilkan warna pink natural."/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/mask" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"
+                    android:textColor="@android:color/black"
+                    android:text="Serum Mask Garnier"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@android:color/black"
+                    android:text="yang aku suka dari sheet masknya garnier itu semua varian essencenya gampang meresap jadi cocok banget buat yang males pakek sheet mask lama-lama. untuk varian sakura white ini di kulitku bagus banget, bikin cerah, halus dan kenyal. aromanya juga enak banget dan menurutku ukuran sheetnya pas di muka. essencenya juga pas porsinya, nggak sampai yang netes kececer di mana-mana gitu karena aku kurang suka dengan tipe sheet mask yang kayak gitu."/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+    </LinearLayout>
+
+</ScrollView>
